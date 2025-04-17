@@ -6,6 +6,6 @@ Dans la plupart des cas, git est capable de mélanger les modifications que diff
 
 - Voici une ligne du README.md avec deux (deux) fotes de frape (fautes de frappe) à corriger
 
-- **Athos** corrigera la première faute de frappe (deux) et **Porthos** la seconde (fautes de frappe) 
+- **Athos** corrigera la première faute de frappe (deux) et **Porthos** la seconde Fautes de frappe (fautes de frappe) à corriger 
 
 - Chacun va faire un clone du repositoire et corriger sa faute de frappe localement, puis essayer de faire un `push` du changement. 
