@@ -10,7 +10,7 @@ Dans la plupart des cas, git est capable de mélanger les modifications que diff
 
 - Chacun va faire un clone du repositoire et corriger sa faute de frappe localement, puis essayer de faire un `push` du changement.
 
-Q1: Les noms des compétitions de l’année 2025.
+pQ1: Les noms des compétitions de l’année 2025.
 
 $\pi nomCompétition(\sigma dateDébut = 2025 (competition) $
 
@@ -39,6 +39,12 @@ $\pi nomSkieur, prenomSkieur, rang(
 
 Q6 : Les noms, altitudes et pays des stations où n’a eu lieu aucune compétition.
 
-
+$\pi nomStation, altitude, pays(STATION)
+− 
+\pi nomStation, altitude, pays(STATION \bowtie STATION.idStation = LIEU.idStation LIEU)$
 
 Q7 : Les noms, prénoms et nationalités des skieurs ayant participé à toutes les compétitions. 
+
+$\pi nomSkieur, prénomSkieur, nationalité(SKIEUR \bowtie CLASSEMENT)
+÷ 
+\pi idCompt(COMPÉTITION)$
